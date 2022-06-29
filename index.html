@@ -1,3 +1,9 @@
+<!--
+  Author: Arisson Lima
+  Instagram: https://www.instagram.com/arissonlima
+  Linkedin: https://www.linkedin.com/in/arissonlima
+  Github: https://www.github.com/arissonlima
+-->
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -14,6 +20,28 @@
     />
   </head>
   <body>
-    <main class="app"></main>
+    <main id="app">
+      <img
+        class="logo"
+        src="./assets/logo.png"
+        alt="Logotipo do GeraLink WhatsApp"
+      />
+      <label for="number">Digite ou cole o número de WhatsApp:</label>
+      <input
+        type="text"
+        id="number"
+        name="number"
+        placeholder="Ex: 8821350005"
+      />
+      <button onclick="gera()" type="submit">Gerar</button>
+
+      <section class="link">
+        <a id="lnk" href="#" target="_blank"
+          >Clique aqui para ir para o WhatsApp</a
+        >
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,86 @@
+/*
+  Author: Arisson Lima
+  Instagram: https://www.instagram.com/arissonlima
+  Linkedin: https://www.linkedin.com/in/arissonlima
+  Github: https://www.github.com/arissonlima
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #00a82d;
+  --secondary: #f3f3f3;
+  --tertiary: #999999;
+  --light: #00c434;
+}
+
+body {
+  background-color: var(--secondary);
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  padding: 50px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 340px;
+  height: 40px;
+  padding: 5px;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  outline: none;
+}
+
+input::placeholder {
+  text-align: center;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+button {
+  background-color: var(--tertiary);
+  width: 340px;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  color: var(--secondary);
+  margin-top: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--primary);
+}
+
+.link {
+  margin-top: 20px;
+}
+
+.link a {
+  color: var(--primary);
+}
