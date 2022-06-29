@@ -15,7 +15,7 @@
   --primary: #00a82d;
   --secondary: #f3f3f3;
   --tertiary: #999999;
-  --light: #00c434;
+  --light: rgba(0, 196, 52, 0.5);
 }
 
 body {
@@ -57,7 +57,7 @@ input {
 
 input::placeholder {
   text-align: center;
-  color: var(--primary);
+  color: var(--light);
   font-weight: bold;
 }
 
