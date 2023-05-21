@@ -15,7 +15,7 @@ function gera() {
   if (whatsapp.length == 0) {
     alert("[ERRO] Digite um número de WhatsApp para prosseguir!");
   } else {
-    link.href = `https://api.whatsapp.com/send?phone=55${whatsapp}`;
+    link.href = `https://web.whatsapp.com/send?phone=55${whatsapp}`;
 
     link.style.display = "block";
 
