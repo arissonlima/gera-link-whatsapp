@@ -6,43 +6,34 @@
 -->
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
-    <title>Gera Link WhatsApp</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <main id="app">
-      <img
-        class="logo"
-        src="./assets/logo.png"
-        alt="Logotipo do GeraLink WhatsApp"
-      />
-      <label for="number">Digite ou cole o número de WhatsApp:</label>
-      <input
-        type="text"
-        id="number"
-        name="number"
-        placeholder="Ex: 8821350005"
-      />
-      <button onclick="gera()" type="submit">Gerar</button>
 
-      <section class="link">
-        <a id="lnk" href="#" target="_blank"
-          >Clique aqui para ir para o WhatsApp</a
-        >
-      </section>
-    </main>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/png" />
+  <title>Gera Link WhatsApp</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <script src="./js/script.js"></script>
-  </body>
+<body>
+  <main id="app">
+    <img class="logo" src="./assets/logo.png" alt="Logotipo do GeraLink WhatsApp" />
+    <label for="number">Digite ou cole o número de WhatsApp:</label>
+    <input type="text" id="number" name="number" placeholder="Ex: 8821350005" />
+    <button onclick="gera()" type="submit">Gerar</button>
+
+    <section class="link">
+      <a id="lnk" href="#" target="_blank">Abrir em Web</a>
+      <a id="lnk2" href="#" target="_blank">Abrir em Desktop</a>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
 </html>
